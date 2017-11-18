@@ -1,0 +1,87 @@
+
+.main-view{
+    padding: 10px;
+}
+section{
+    margin:20px 0 30px;
+}
+.info{
+    margin-bottom: 5px;
+    height: 25px;
+}
+.info .block{
+    display: inline-block;
+    width: 45%;
+}
+.info .heading{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.info .link{
+    color: rgb(247, 56, 8);
+    text-align: right;
+    font-size: 11px;
+}
+
+.scroll-bar-indicator
+{
+    display: none;
+}
+.carousel-wrapper{
+    margin-bottom: 25px;
+    padding: 0px 0;
+}
+.carousel-item.sliders .img-wrapper{
+    position: relative;
+    width: 120px;
+    height:180px;
+    margin-right: 10px
+}
+.img-wrapper img{
+    border-radius: 5px;
+    width: 120px;
+    height:180px;
+}
+.top-img-block {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(204, 204, 204, 0.5);
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bottom-img-block {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: none;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.top-img-block .heading, .bottom-img-block .heading{
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.bottom-img-block .bottom-heading{
+    height: 12px;
+}
+
+.bottom-img-block .text{
+    text-align: left;
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.bar-footer{
+    margin-left: -5px;
+}

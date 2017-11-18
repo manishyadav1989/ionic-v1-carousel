@@ -1,0 +1,12 @@
+<div class="carousel-item sliders" ng-click="vm.onSelect({item:vm.ngModel})">
+    <div class="img-wrapper">
+        <img ng-src="{{vm.ngModel.src}}" />
+        <div class="top-img-block">
+            <div class="heading">{{vm.ngModel.name}}, {{vm.ngModel.age}}</div>
+        </div>
+        <div class="bottom-img-block">
+            <div class="heading bottom-heading">{{vm.ngModel.hobby}}</div>
+            <div class="text">{{vm.ngModel.country}}</div>
+        </div>
+    </div>
+</div>
